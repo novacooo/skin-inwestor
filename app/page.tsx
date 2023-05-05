@@ -30,8 +30,8 @@ export default async function Home() {
       </h2>
       <div className="mt-8 flex flex-col gap-2">
         {/* {items.map(({ name, price }) => (
-          <ItemRow key={name} name={name} price={price} />
-        ))} */}
+            <ItemRow key={name} name={name} price={price} />
+          ))} */}
         <p className="text-3xl text-zinc-100">{JSON.stringify(data)}</p>
       </div>
     </main>
